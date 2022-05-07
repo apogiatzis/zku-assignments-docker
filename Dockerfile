@@ -9,13 +9,10 @@ RUN groupadd -r student -g 901 && useradd -u 901 -r -g student student
 RUN usermod -aG sudo student
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-USER student
-WORKDIR /home/student
-
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 # nvm environment variables
-ENV HOME "/home/student"
+ENV HOME "/root"
 ENV NVM_DIR "$HOME/.nvm"
 ENV NODE_VERSION 16.0.0
 
