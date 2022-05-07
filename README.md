@@ -22,6 +22,11 @@ There are two possible ways of utilizing the Dockerfiles in this repository to l
 
 In order to run locally, it is necessary that you already have Docker engine installed on your machine.
 
+Launch environment using the prebuilt image:
+```bash
+docker run -it --rm -v $(pwd):/home/student/workspace ghcr.io/apogiatzis/zku-assignment-workspace:latest
+```
+
 You can **optionally** rebuild the image in case of custom modifications or requirements in the [Dockerfile](./Dockerfile). Otherwise this is not a necessary step as the image has already been built and pushed to Github's container registry. You can build the image locally using the following command:
 
 ```bash
