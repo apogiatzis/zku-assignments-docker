@@ -51,6 +51,10 @@ docker run -it --rm -v $(pwd):/home/student/workspace  my-zku-assignments-image
 
 ### Run on Gitpod
 
-Alternatively, Gitpod environmet builds on top of the `gitpod/workspace-base` image. To launch gitpod with this docker workspace click the button below:
+Alternatively, Gitpod environmet builds on top of the `gitpod/workspace-base` image. Gitpod provides a full fledged completely online IDE experience with a dedicated workspace. It is a great alternative if you don't want to install anything on your machine.
+
+Note that running this in Gitpod requires authenticating using your Github account
+
+To launch gitpod with this docker workspace click the button below:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/apogiatzis/zku-assignments-docker)

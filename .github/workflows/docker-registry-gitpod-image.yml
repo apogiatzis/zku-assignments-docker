@@ -1,4 +1,4 @@
-name: Publosh Gitpod image
+name: Publish Gitpod image
 
 on:   
   push:
