@@ -1,4 +1,4 @@
-name: Docker Registry
+name: Publosh Gitpod image
 
 on:   
   push:

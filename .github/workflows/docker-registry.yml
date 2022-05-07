@@ -1,4 +1,4 @@
-name: Docker Registry
+name: Publish workspace image
 
 on:   
   push:
