@@ -27,6 +27,11 @@ Launch environment using the prebuilt image:
 docker run -it --rm -v $(pwd):/home/student/workspace ghcr.io/apogiatzis/zku-assignment-workspace:latest
 ```
 
+Note that If you have already launched the container locally using the prebuilt image, the above command will use the image downloaded at that time. To make sure that you have the latest image run:
+```
+docker pull ghcr.io/apogiatzis/zku-assignment-workspace:latest
+```
+
 You can **optionally** rebuild the image in case of custom modifications or requirements in the [Dockerfile](./Dockerfile). Otherwise this is not a necessary step as the image has already been built and pushed to Github's container registry. You can build the image locally using the following command:
 
 ```bash
