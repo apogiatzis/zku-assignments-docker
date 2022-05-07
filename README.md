@@ -10,6 +10,10 @@ The dependencies installed in this environment are:
 - circom (latest)
 - cargo (latest stable)
 
+This workspace comes only with the required dependencies for the assigments. The assignments themselves need to be cloned from the official ZKU repo.
+
+**WARNING:** The provided command to launch the workspace container here mounts your current working directory to `/home/student/workspace` therefore everything stored in there will be persistent on your disk even after the container terminates. **Any work saved on any other directory will be lost (due to the `--rm` flag)!** You can change the mounted directory by modifying the -v option in the `docker run ...` command.
+
 ## Get Started
 
 There are two possible ways of utilizing the Dockerfiles in this repository to launch an isolated environments with all the required dependencies pre-installed:
