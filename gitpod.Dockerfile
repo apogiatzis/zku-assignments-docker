@@ -28,5 +28,5 @@ RUN curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh -s -- -y
 RUN git clone https://github.com/iden3/circom.git
 RUN export PATH="$HOME/.cargo/bin:$PATH" && cd circom && cargo build --release && cargo install --path circom
 
-RUN npm install -g snarkjs
+RUN npm install -g snarkjs yarn
 
