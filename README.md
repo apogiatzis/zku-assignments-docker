@@ -10,6 +10,8 @@ The dependencies installed in this environment are:
 - circom (latest)
 - cargo (latest stable)
 - yarn
+- circom_tester
+- snarkjs
 
 This workspace comes only with the required dependencies for the assigments. The assignments themselves need to be cloned from the official ZKU repo.
 
