@@ -9,6 +9,7 @@ The dependencies installed in this environment are:
 - NodeJS v16.0.0
 - circom (latest)
 - cargo (latest stable)
+- yarn
 
 This workspace comes only with the required dependencies for the assigments. The assignments themselves need to be cloned from the official ZKU repo.
 
