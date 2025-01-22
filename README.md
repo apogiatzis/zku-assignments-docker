@@ -58,6 +58,8 @@ Alternatively, Gitpod environmet builds on top of the `gitpod/workspace-base` im
 
 Note that running this in Gitpod requires authenticating using your Github account
 
-To launch gitpod with this docker workspace click the button below:
+Launch gitpod or Codeanywhere with this docker workspace by clicking the buttons below:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/apogiatzis/zku-assignments-docker)
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/apogiatzis/zku-assignments-docker)
