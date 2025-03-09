@@ -61,3 +61,15 @@ Note that running this in Gitpod requires authenticating using your Github accou
 To launch gitpod with this docker workspace click the button below:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/apogiatzis/zku-assignments-docker)
+
+#### 🌏  Alternative Cloud Development Environments:
+
+Click any of the buttons below to start a new development environment to demo or contribute to the codebase without having to install anything on your machine:
+
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/apogiatzis/zku-assignments-docker)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/apogiatzis/zku-assignments-docker)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/apogiatzis/zku-assignments-docker)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/apogiatzis/zku-assignments-docker)
+[![Edit in Codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/apogiatzis/zku-assignments-docker)
+[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/apogiatzis/zku-assignments-docker)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/apogiatzis/zku-assignments-docker)
